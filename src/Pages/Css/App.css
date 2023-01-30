@@ -1,0 +1,62 @@
+.section {
+    height: 105vh;
+    margin-top: -40px;
+  
+    
+}
+.About {
+    margin-top: -130px;
+    background-color:#ececec;
+    height: 120vh;
+}
+.Home {
+    background-color: #191f34;
+    color: #9e9ea6;
+    
+    
+}
+.nav {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
+.Porto {
+  
+}
+.Blog {
+    border: 1px solid;
+    background-color: #191f34;
+}
+@media screen and (max-width: 380px) {
+    .section{
+        height: 100%;
+        
+    }
+    .Home {
+        
+    }
+    .About{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+
+@media screen and (max-width: 700px) {
+    .section{
+        height: 100%;
+    }
+    .About{
+        display: flex;
+        flex-direction: column;
+    }
+    .Home {
+          
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  }

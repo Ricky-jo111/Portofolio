@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&family=Dancing+Script&family=Poppins:wght@500&family=Teko&display=swap');
+
+
+
+
+.about {
+    width: 98%;
+    color: #575760; 
+    margin-top: 50px;
+
+}
+.intro {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.box {
+    background: rgb(236,236,236,0.1);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    padding: 50px;
+    width: 40%;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.item-isi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+}
+.isi {
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.isi p{
+    font-size: 12px;
+    font-weight: 100;
+}
+.isi h2{
+    color: black;
+    font-weight: 800;
+}
+.isi h3{
+    color: #c2c2c2;
+    font-weight: 100;
+}
+.experience {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+#exp {
+    margin-top: 50px;
+}
+.tech {
+    background-color: #80808c;
+    color: #fff;
+    width: 60px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+.left-item{
+    
+    width: 50%;
+    border: 1px ;
+    font-size: 18px;
+
+}
+.right-item{
+    width: 40%;
+}
+.item-isi img{
+    width: 100px;
+    height: 100px;
+    border: none;
+}
+.judul {
+    color: #737373;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width: 400px) {
+    .about{
+        margin-top: -70px;
+    }
+    .intro {
+        
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .left-item{
+        width: 100%;
+        font-size: 10px;
+    }
+    .right-item{
+        width: 100%;
+        font-size: 10px;
+    }
+    .experience{
+        width: 100%;
+        border: 1px solid #000;
+    }
+    .box {
+        width: 100%;
+    }
+    .isi {
+        font-size: 10px;
+    }
+}

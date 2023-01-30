@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&family=Dancing+Script&family=Poppins:wght@500&family=Teko&display=swap');
+
+body {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Cont-Home {
+    width: 100%;
+    margin-top: -100px;
+}
+.Home {
+    margin: 100px auto;
+}
+
+.container {
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9e9ea6;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.intro {
+    width: 70% ;
+    
+}
+.intro p {
+    font-family: 'Chivo Mono', monospace;
+}
+.btnDiv button{
+    background-color:#BCBBBD;
+    cursor: pointer;
+    
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+.btnDiv button:hover{
+    transition: 0.5s ease-in-out;
+    background-color: #AAA7AB;
+    color: #1A0000;
+}
+
+.right img {
+    position: absolute;
+    z-index: 1;
+    margin-top: 50px;
+    margin-left: 80px  ;
+    height: 310px;
+    width: 305px;
+}
+.left {
+    font-family: 'Chivo Mono', monospace;
+    
+
+    width: 70%;
+}
+.left h1{
+    font-size: 2rem;
+}
+.left p {
+    font-size: 0.8rem;
+}
+#nama{
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+}
+
+.type-write {
+    font-size: 0.8rem;
+    text-align: start;
+    width: 100%;
+    
+}
+
+
+@media screen and (max-width: 400px){
+    .content {
+      
+    }
+    .left{
+        width: 150%;
+ 
+    }
+    .left h1{
+        font-size: 15px;
+    }
+    .btnDiv button{
+        font-size: 7px;
+    }
+    .left .type-write{
+        font-size: 7px;
+    }
+    .right{
+        
+        width: 150%;
+        height: 100%;
+        
+    }
+    .right img{
+        position: absolute;
+        height: 190px;
+        width: 190px;
+        margin: 0px 120px 10px 50px;
+        
+        
+        
+    }
+    .right svg{
+        position: relative;
+        height: 200px;
+        width: 210px;
+        
+    }
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&family=Dancing+Script&display=swap');
+
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 80%;
+}
+
+nav {
+    background-color:#ececec;
+    display: flex;
+    align-items: center;
+    color: #414041;
+    justify-content: center;
+   
+}
+nav .logo {
+    font-family: 'Dancing Script', cursive;
+    
+    font-size: 30px;
+}
+
+nav .navitem ul {
+    display: flex;
+    margin: 10px 10px;
+    font-family: 'Chivo Mono', monospace;
+}
+nav .navitem ul li a {
+    color: #414041;
+    text-decoration: none;
+}
+.navitem ul li a:hover {
+    color : #000;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+
+}
+
+nav .navitem ul li {
+    list-style: none;
+    margin: 10px 10px;
+    
+}
+
+
+
