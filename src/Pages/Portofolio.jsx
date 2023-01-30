@@ -8,6 +8,7 @@ import git from '../Components/img/git.svg'
 import fg from '../Components/img/fg.svg'
 import Aos from 'aos'
 import 'aos/dist/aos.css';
+import { Container } from 'react-bootstrap'
 
 
 function Portofolio() {
@@ -18,7 +19,7 @@ function Portofolio() {
   return (
     <div>
         
-    <div className="container">
+    <Container className="container">
         
     <div className="contents">
         <h1 id='jdl'>Skill</h1>
@@ -47,7 +48,7 @@ function Portofolio() {
         </div>
     
     </div >
-      </div>
+      </Container>
     </div>
   )
 }

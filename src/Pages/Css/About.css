@@ -4,9 +4,10 @@
 
 
 .about {
-    width: 98%;
+    width: 100%;
     color: #575760; 
-    margin-top: 50px;
+    padding-top: 50px;
+    
 
 }
 .intro {
@@ -22,7 +23,7 @@
     -webkit-backdrop-filter: blur( 3px );
     border-radius: 10px;
     padding: 50px;
-    width: 40%;
+    width: 60%;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .item-isi{
@@ -33,18 +34,23 @@
 }
 .isi {
     margin-left: 20px;
+    padding: 10px;
     font-family: 'Poppins', sans-serif;
 }
 .isi p{
     font-size: 12px;
+    width: 50%;
     font-weight: 100;
+    
 }
 .isi h2{
     color: black;
     font-weight: 800;
+    font-size: 1.5rem;
 }
 .isi h3{
     color: #c2c2c2;
+    font-size: 1.5rem;
     font-weight: 100;
 }
 .experience {
@@ -74,6 +80,9 @@
 .right-item{
     width: 40%;
 }
+.right-item .isi {
+    margin-top: 20px;
+}
 .item-isi img{
     width: 100px;
     height: 100px;
@@ -86,9 +95,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
-@media screen and (max-width: 400px) {
-    .about{
-        margin-top: -70px;
+@media screen and (min-width: 375px) and (max-width : 500px) {
+    .about {
+        margin-top: 0px;
+        padding-top: 20px;
+        padding-bottom: 30px;
     }
     .intro {
         
@@ -102,16 +113,26 @@
     }
     .right-item{
         width: 100%;
+        height: 100%;
         font-size: 10px;
+    }
+    .right-item .isi {
+        
+        margin-top: 25px;
     }
     .experience{
         width: 100%;
-        border: 1px solid #000;
+        
     }
     .box {
         width: 100%;
     }
-    .isi {
+    .isi h2{
         font-size: 10px;
+        width: 100%;
+        
+    }
+    .box p {
+        width: 70%;
     }
 }

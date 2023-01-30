@@ -6,11 +6,12 @@ import {MdContactPage} from 'react-icons/md'
 import {BsInstagram} from 'react-icons/bs'
 import {BsWhatsapp} from 'react-icons/bs'
 import {BsLinkedin} from 'react-icons/bs'
+import { Container } from 'react-bootstrap'
 
 function Blog() {
   return (
-    <div className='container foot'>
-      <div className="content blog-isi">
+    <Container className='container foot'>
+      
         <div className="box boxs">
           <h1>Reach Me out</h1>
           <div className="icon">
@@ -28,13 +29,9 @@ function Blog() {
           </div>
         </div>
        
-        </div>
-        <div className='footer'>
-        <h3>Made With Love ❤</h3>
-        <p>2023 ©. - By Ricky Jonathan </p>
-
-        </div>
-    </div>
+      
+       
+    </Container>
   )
 }
 

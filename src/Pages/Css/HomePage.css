@@ -6,28 +6,27 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
-.Cont-Home {
+.Cont-home {
+    padding-top: 150px;
+    
     width: 100%;
-    margin-top: -100px;
-}
-.Home {
-    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
 .container {
-    margin: 100px auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #9e9ea6;
-    font-family: 'Kdam Thmor Pro', sans-serif;
+    
+   color: #9e9ea6;
+   font-family: 'Kdam Thmor Pro', sans-serif;
 }
 .intro {
     width: 70% ;
     
 }
 .intro p {
-    font-family: 'Chivo Mono', monospace;
+    
 }
 .btnDiv button{
     background-color:#BCBBBD;
@@ -58,7 +57,7 @@ body {
     font-family: 'Chivo Mono', monospace;
     
 
-    width: 70%;
+
 }
 .left h1{
     font-size: 2rem;
@@ -79,42 +78,18 @@ body {
 }
 
 
-@media screen and (max-width: 400px){
-    .content {
-      
-    }
-    .left{
-        width: 150%;
- 
+@media screen and (min-width: 375px) and (max-width : 500px){
+    .Cont-home{
+        padding: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .left h1{
-        font-size: 15px;
+        font-size: 1rem;
     }
-    .btnDiv button{
-        font-size: 7px;
-    }
-    .left .type-write{
-        font-size: 7px;
-    }
-    .right{
-        
-        width: 150%;
-        height: 100%;
-        
-    }
-    .right img{
-        position: absolute;
-        height: 190px;
-        width: 190px;
-        margin: 0px 120px 10px 50px;
-        
-        
-        
-    }
-    .right svg{
-        position: relative;
-        height: 200px;
-        width: 210px;
-        
+    .left  h4{
+        font-size: 0.8rem;
     }
 }

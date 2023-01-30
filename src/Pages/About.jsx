@@ -3,12 +3,13 @@ import merbabu from '../Components/img/merbabu.jpeg'
 import './Css/About.css'
 import logo from '../Components/img/logo.png'
 import lo from '../Components/img/skil.svg'
+import { Container } from 'react-bootstrap'
 
 function About() {
   return (
-    <div>
-      <div className="container">
-        <div className="content">
+ 
+      <Container className="container">
+    
             <div className="about">
                 <h1>About </h1>
                 <div className="img">
@@ -42,7 +43,7 @@ function About() {
                             <img  src={lo} alt="" />
                             <div className="isi">
                               <p>August - December 2022</p>
-                              <h2>Bootcamp  <br></br>
+                              <h2>Bootcamp
                               Front End Developer
                               </h2>
                               <h3>#Tech4Impact - Skilvul Batch </h3>
@@ -54,9 +55,9 @@ function About() {
                     </div>
                 </div>
             </div>
-        </div>
-      </div>
-    </div>
+     
+      </Container>
+  
   )
 }
 
