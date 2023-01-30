@@ -1,9 +1,6 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
-import one from '../Components/img/one.jpeg'
-import two from '../Components/img/two.jpeg'
-import three from '../Components/img/three.jpeg'
-import four from '../Components/img/four.jpeg'
+
 import './Css/Blog.css'
 import {MdContactPage} from 'react-icons/md'
 import {BsInstagram} from 'react-icons/bs'
